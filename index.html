@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" 
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Youtube Mobile</title>
+    <script src="https://kit.fontawesome.com/2d5d01051e.js"
+    crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!-- Video Player-->
+    <section class="player">
+        <video controls src="video/11주차 실습보고서 결과.mp4"></video>
+    </section>
+
+    <!-- Video info-->
+    <div class="infoAndUpNext">
+        <section class="info">
+        <!-- Metadata -->
+        <div class="metadata">
+            
+            <div class="titleAndButton">
+                <span class="title clamp">
+                    Clone Coding: Youtube Mobile Website 유튜브 모바일 웹사이트 따라 만들기|
+                    프론트엔드 입문: HTML, CSS, Javascript | 영상 - JAVA/swing 배치관리자 활용한 영상 | 영상참고출처 - 유튜브/드림코딩
+                </span>
+                <button class="moreBtn">
+                    <i class="fas fa-caret-down"></i>
+                </button>
+            </div>
+            <span class="views">조회수 1.3만회 | 1개월 전</span>
+            <span class="hashtags">#Coding #HTML, CSS #SooBin</span>
+        </div>
+        <!-- Actions -->
+        <ul class="actions">
+            <li>
+                <button><i class="active fas fa-thumbs-up"></i><span>2.5천</span></button>
+            </li>
+            <li>
+                <button><i class="fas fa-thumbs-down"></i><span>싫어요</span></button>
+            </li>
+            <li>
+                <button><i class="fas fa-share"></i><span>공유</span></button>
+            </li>
+            <li>
+                <button><i class="fas fa-plus"></i><span>저장</span></button>
+            </li>
+            <li><button></button></li>
+        </ul>
+        <!-- Channel Desription -->
+        <div class="channel">
+            <div class="metadata">
+                <img src="image/jsb.jpg" alt="" />
+                <div class="info">
+                    <span class="name">Coding By SooBin</span>
+                    <span class="subscribers">구독자 586명</span>
+                </div>
+            </div>
+            <button class="subscribe">구독</button>
+        </div>
+        <div class="comment">
+            <span class="comment_num">댓글 543</span>
+            <div class="first_comment">
+                <img src="image/cat2.jpg" alt=" "/>
+                <div class="comment_info">
+                    <span class="content">멋진 영상입니다! 구독하고 가요~</span>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+            <li class="item">
+                <div class="img"> <img src="image/cat8.PNG" alt="" /></div>
+                <div class="info">
+                    <span class="title">
+                        귀여운 고양이 뒷모습 | 귀여운 고양이가 담겨있는 영상
+                    </span>
+                    <span class="name">coding by Soobin</span>
+                    <span class="views">82K views</span>
+                </div>
+                <button class="morBtn"><i class="fas fa-ellopsis-v"></i></button>
+            </li>
+            <li class="item">
+                <div class="img"><img src="image/cat4.PNG" alt="" /></div>
+                <div class="info">
+                    <span class="title">
+                        귀엽게 앉아 있는 고양이 | 🐈🐈🐈
+                    </span>
+                    <span class="name">coding by Soobin</span>
+                    <span class="views">80K views</span>
+                </div>
+                <button class="morBtn"><i class="fas fa-ellopsis-v"></i></button>
+            </li>
+            <li class="item">
+                <div class="img"><img src="image/cat5.png" alt="" /></div>
+                <div class="info">
+                    <span class="title">
+                        고양이 셀카 | 다양한 종류의 고양이 영상
+                    </span>
+                    <span class="name">coding by Soobin</span>
+                    <span class="views">78K views</span>
+                </div>
+                <button class="morBtn"><i class="fas fa-ellopsis-v"></i></button>
+            </li>
+        </ul>
+        </section>
+    </div>
+    
+</body>
+</html>
